@@ -37,11 +37,11 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        // Inisialisasi ListView
+        
         listView = findViewById(R.id.listView);
         tv = findViewById(R.id.tvJudul);
 
-        // Adapter untuk menampilkan data
+        
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
                 this,
                 android.R.layout.simple_list_item_1,
